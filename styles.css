@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar ul li {
+    margin: 0 20px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  #navbar ul li a:hover {
+    color: #00c6ff; /* Change color on hover */
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  .blue-square {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+  }
+  
+  .circle {
+    background: radial-gradient(circle, #0072ff, #00c6ff);
+  }
+  
+  #about,
+  #contact {
+    background-color: #f4f4f4;
+  }
+  
